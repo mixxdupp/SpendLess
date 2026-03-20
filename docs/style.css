@@ -208,22 +208,23 @@ footer {
     transform: translateY(0);
 }
 
-/* SIMULATOR CONTAINER */
-.simulator-container {
-    margin-top: 80px;
-    display: flex;
-    justify-content: center;
+/* HERO CTA */
+.hero-cta {
+    display: inline-block;
+    margin-top: 40px;
+    background: #1d1d1f;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 16px 32px;
+    border-radius: 980px;
+    font-weight: 600;
+    font-size: 1.15rem;
+    transition: transform 0.2s, opacity 0.2s;
 }
 
-.iphone-frame {
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 40px 100px -20px rgba(0, 0, 0, 0.15);
-}
-
-.iphone-frame iframe {
-    display: block;
-    border: none;
+.hero-cta:hover {
+    transform: scale(1.04);
+    opacity: 0.9;
 }
 
 .nav-btn-buy {
