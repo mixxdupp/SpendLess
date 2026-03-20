@@ -1,0 +1,43 @@
+{
+    "manifest_version": 3,
+    "name": "Stop Impulsing",
+    "version": "1.0.0",
+    "description": "Track product prices and avoid impulse purchases",
+    "icons": {
+        "128": "icons/icon128.png"
+    },
+    "permissions": [
+        "storage",
+        "activeTab",
+        "alarms"
+    ],
+    "host_permissions": [
+        "https://*.amazon.com/*",
+        "https://*.walmart.com/*",
+        "https://*.bestbuy.com/*",
+        "https://*.target.com/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.amazon.com/*/dp/*",
+                "https://*.amazon.com/dp/*",
+                "https://*.walmart.com/ip/*",
+                "https://*.bestbuy.com/site/*",
+                "https://*.target.com/p/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "css": [
+                "content.css"
+            ]
+        }
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}

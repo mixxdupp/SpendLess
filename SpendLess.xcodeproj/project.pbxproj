@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		016E51E622AD340137884214 /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5FE04F3FD0826892135369 /* PrivacyPolicyView.swift */; };
+		4C4F46F4BC4BF23B5956669B /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = C978C5004D55BEA7CFBE444B /* Config.swift */; };
+		7786FAC6C760BCE36D757FA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EADF85FCB211E399F40A83 /* Assets.xcassets */; };
+		8FBC1E1042A34712E3974DA9 /* TermsOfServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044708EF9C305E71080A7FCE /* TermsOfServiceView.swift */; };
+		APP001 /* SpendLessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC001 /* SpendLessApp.swift */; };
+		APP003 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC003 /* AuthView.swift */; };
+		APP004 /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC004 /* ProductListView.swift */; };
+		APP005 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC005 /* ProductDetailView.swift */; };
+		APP006 /* AddProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC006 /* AddProductView.swift */; };
+		APP007 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC007 /* PaywallView.swift */; };
+		APP008 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC008 /* SettingsView.swift */; };
+		APP009 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC009 /* StatsView.swift */; };
+		APP010 /* ProductCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC010 /* ProductCardView.swift */; };
+		APP011 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC011 /* Product.swift */; };
+		APP012 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC012 /* User.swift */; };
+		APP013 /* PriceHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC013 /* PriceHistory.swift */; };
+		APP014 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC014 /* AuthService.swift */; };
+		APP015 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC015 /* APIClient.swift */; };
+		APP016 /* PurchaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC016 /* PurchaseService.swift */; };
+		APP017 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC017 /* MainTabView.swift */; };
+		APP020 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC020 /* OnboardingView.swift */; };
+		APP021 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC021 /* EmptyStateView.swift */; };
+		APP022 /* SkeletonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC022 /* SkeletonView.swift */; };
+		APP023 /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC023 /* ConfettiView.swift */; };
+		APP024 /* SyncExtensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC024 /* SyncExtensionView.swift */; };
+		APP025 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC025 /* SplashView.swift */; };
+		APP026 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC026 /* CustomTabBar.swift */; };
+		APP027 /* MetadataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC027 /* MetadataFetcher.swift */; };
+		APP028 /* CurrencyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC028 /* CurrencyService.swift */; };
+		APP029 /* DemotivationOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC029 /* DemotivationOverlay.swift */; };
+		APP030 /* RationalityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC030 /* RationalityService.swift */; };
+		APP901 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC901 /* DesignSystem.swift */; };
+		APP902 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC902 /* ThemeManager.swift */; };
+		C1C640B5725EAFD1C863FCB7 /* Wishlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E701E4BFAF6C2CB38A4DFB /* Wishlist.swift */; };
+		EE11309F866CF46169E47C26 /* RationalityChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F972359EBAD22DBE7422FB7 /* RationalityChatView.swift */; };
+		PKG001 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = PKGREF001 /* Supabase */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		044708EF9C305E71080A7FCE /* TermsOfServiceView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TermsOfServiceView.swift; path = Sources/SpendLess/Views/TermsOfServiceView.swift; sourceTree = "<group>"; };
+		04EADF85FCB211E399F40A83 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Sources/SpendLess/Assets.xcassets; sourceTree = "<group>"; };
+		6E5FE04F3FD0826892135369 /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PrivacyPolicyView.swift; path = Sources/SpendLess/Views/PrivacyPolicyView.swift; sourceTree = "<group>"; };
+		6F972359EBAD22DBE7422FB7 /* RationalityChatView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RationalityChatView.swift; path = Sources/SpendLess/Views/RationalityChatView.swift; sourceTree = "<group>"; };
+		850430E2B46ED559F5A64933 /* Wishlist.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Wishlist.swift; sourceTree = "<group>"; };
+		97E701E4BFAF6C2CB38A4DFB /* Wishlist.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Wishlist.swift; path = Sources/SpendLess/Models/Wishlist.swift; sourceTree = "<group>"; };
+		987F84CD9ED8C30C110502AB /* RationalityChatView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RationalityChatView.swift; sourceTree = "<group>"; };
+		C978C5004D55BEA7CFBE444B /* Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Config.swift; path = Sources/SpendLess/Config.swift; sourceTree = "<group>"; };
+		INFO001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		PROD001 /* SpendLess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpendLess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		SRC001 /* SpendLessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendLessApp.swift; sourceTree = "<group>"; };
+		SRC003 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		SRC004 /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
+		SRC005 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		SRC006 /* AddProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductView.swift; sourceTree = "<group>"; };
+		SRC007 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		SRC008 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		SRC009 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		SRC010 /* ProductCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardView.swift; sourceTree = "<group>"; };
+		SRC011 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		SRC012 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		SRC013 /* PriceHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceHistory.swift; sourceTree = "<group>"; };
+		SRC014 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		SRC015 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		SRC016 /* PurchaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseService.swift; sourceTree = "<group>"; };
+		SRC017 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		SRC020 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		SRC021 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		SRC022 /* SkeletonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonView.swift; sourceTree = "<group>"; };
+		SRC023 /* ConfettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiView.swift; sourceTree = "<group>"; };
+		SRC024 /* SyncExtensionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncExtensionView.swift; sourceTree = "<group>"; };
+		SRC025 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		SRC026 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		SRC027 /* MetadataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetadataFetcher.swift; sourceTree = "<group>"; };
+		SRC028 /* CurrencyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyService.swift; sourceTree = "<group>"; };
+		SRC029 /* DemotivationOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemotivationOverlay.swift; sourceTree = "<group>"; };
+		SRC030 /* RationalityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RationalityService.swift; sourceTree = "<group>"; };
+		SRC901 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		SRC902 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FWPHASE001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				PKG001 /* Supabase in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3352C16B13367000AEC524CC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				987F84CD9ED8C30C110502AB /* RationalityChatView.swift */,
+				6E5FE04F3FD0826892135369 /* PrivacyPolicyView.swift */,
+				044708EF9C305E71080A7FCE /* TermsOfServiceView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4577206619C97CCD93FBB977 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				DD0599E0248A0092EC1261B9 /* SpendLess */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		CDC815E6B7C7183BCE1C2C1D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				850430E2B46ED559F5A64933 /* Wishlist.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		COMPONENTSGRP /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				SRC010 /* ProductCardView.swift */,
+				SRC021 /* EmptyStateView.swift */,
+				SRC022 /* SkeletonView.swift */,
+				SRC023 /* ConfettiView.swift */,
+				SRC026 /* CustomTabBar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		DD0599E0248A0092EC1261B9 /* SpendLess */ = {
+			isa = PBXGroup;
+			children = (
+				CDC815E6B7C7183BCE1C2C1D /* Models */,
+				3352C16B13367000AEC524CC /* Views */,
+				C978C5004D55BEA7CFBE444B /* Config.swift */,
+				04EADF85FCB211E399F40A83 /* Assets.xcassets */,
+			);
+			name = SpendLess;
+			sourceTree = "<group>";
+		};
+		DESIGNGRP /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				SRC901 /* DesignSystem.swift */,
+				SRC902 /* ThemeManager.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		MAINGRP = {
+			isa = PBXGroup;
+			children = (
+				SRCGRP /* SpendLess */,
+				PROD001 /* SpendLess.app */,
+				4577206619C97CCD93FBB977 /* Sources */,
+				97E701E4BFAF6C2CB38A4DFB /* Wishlist.swift */,
+				6F972359EBAD22DBE7422FB7 /* RationalityChatView.swift */,
+			);
+			sourceTree = "<group>";
+		};
+		MODELSGRP /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				SRC011 /* Product.swift */,
+				SRC012 /* User.swift */,
+				SRC013 /* PriceHistory.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		SERVICESGRP /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				SRC014 /* AuthService.swift */,
+				SRC015 /* APIClient.swift */,
+				SRC016 /* PurchaseService.swift */,
+				SRC027 /* MetadataFetcher.swift */,
+				SRC028 /* CurrencyService.swift */,
+				SRC030 /* RationalityService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		SRCGRP /* SpendLess */ = {
+			isa = PBXGroup;
+			children = (
+				SRC001 /* SpendLessApp.swift */,
+				VIEWSGRP /* Views */,
+				MODELSGRP /* Models */,
+				SERVICESGRP /* Services */,
+				COMPONENTSGRP /* Components */,
+				DESIGNGRP /* Design */,
+				INFO001 /* Info.plist */,
+			);
+			path = Sources/SpendLess;
+			sourceTree = "<group>";
+		};
+		VIEWSGRP /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				SRC003 /* AuthView.swift */,
+				SRC017 /* MainTabView.swift */,
+				SRC004 /* ProductListView.swift */,
+				SRC005 /* ProductDetailView.swift */,
+				SRC006 /* AddProductView.swift */,
+				SRC007 /* PaywallView.swift */,
+				SRC008 /* SettingsView.swift */,
+				SRC009 /* StatsView.swift */,
+				SRC020 /* OnboardingView.swift */,
+				SRC024 /* SyncExtensionView.swift */,
+				SRC025 /* SplashView.swift */,
+				SRC029 /* DemotivationOverlay.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		TARGET001 /* SpendLess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFGLIST002 /* Build configuration list for PBXNativeTarget "SpendLess" */;
+			buildPhases = (
+				SRCPHASE001 /* Sources */,
+				FWPHASE001 /* Frameworks */,
+				01004A2D5781E3637184DE84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpendLess;
+			packageProductDependencies = (
+				PKGREF001 /* Supabase */,
+			);
+			productName = SpendLess;
+			productReference = PROD001 /* SpendLess.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		PROJECT001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					TARGET001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = CFGLIST001 /* Build configuration list for PBXProject "SpendLess" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = MAINGRP;
+			packageReferences = (
+				PKGREMOTE001 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
+			productRefGroup = MAINGRP;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				TARGET001 /* SpendLess */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01004A2D5781E3637184DE84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7786FAC6C760BCE36D757FA5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		SRCPHASE001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				APP001 /* SpendLessApp.swift in Sources */,
+				APP017 /* MainTabView.swift in Sources */,
+				APP003 /* AuthView.swift in Sources */,
+				APP004 /* ProductListView.swift in Sources */,
+				APP005 /* ProductDetailView.swift in Sources */,
+				APP006 /* AddProductView.swift in Sources */,
+				APP007 /* PaywallView.swift in Sources */,
+				APP008 /* SettingsView.swift in Sources */,
+				APP009 /* StatsView.swift in Sources */,
+				APP010 /* ProductCardView.swift in Sources */,
+				APP011 /* Product.swift in Sources */,
+				APP012 /* User.swift in Sources */,
+				APP013 /* PriceHistory.swift in Sources */,
+				APP014 /* AuthService.swift in Sources */,
+				APP015 /* APIClient.swift in Sources */,
+				APP016 /* PurchaseService.swift in Sources */,
+				APP901 /* DesignSystem.swift in Sources */,
+				APP902 /* ThemeManager.swift in Sources */,
+				APP020 /* OnboardingView.swift in Sources */,
+				APP021 /* EmptyStateView.swift in Sources */,
+				APP022 /* SkeletonView.swift in Sources */,
+				APP023 /* ConfettiView.swift in Sources */,
+				APP024 /* SyncExtensionView.swift in Sources */,
+				APP025 /* SplashView.swift in Sources */,
+				APP026 /* CustomTabBar.swift in Sources */,
+				APP027 /* MetadataFetcher.swift in Sources */,
+				APP028 /* CurrencyService.swift in Sources */,
+				APP029 /* DemotivationOverlay.swift in Sources */,
+				APP030 /* RationalityService.swift in Sources */,
+				C1C640B5725EAFD1C863FCB7 /* Wishlist.swift in Sources */,
+				EE11309F866CF46169E47C26 /* RationalityChatView.swift in Sources */,
+				4C4F46F4BC4BF23B5956669B /* Config.swift in Sources */,
+				016E51E622AD340137884214 /* PrivacyPolicyView.swift in Sources */,
+				8FBC1E1042A34712E3974DA9 /* TermsOfServiceView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CFG001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFG002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFG003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sources/SpendLess/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spendless.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFG004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sources/SpendLess/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spendless.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFGLIST001 /* Build configuration list for PBXProject "SpendLess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFG001 /* Debug */,
+				CFG002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFGLIST002 /* Build configuration list for PBXNativeTarget "SpendLess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFG003 /* Debug */,
+				CFG004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		PKGREMOTE001 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		PKGREF001 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = PKGREMOTE001 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = PROJECT001 /* Project object */;
+}

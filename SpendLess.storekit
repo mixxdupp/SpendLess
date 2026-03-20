@@ -1,0 +1,177 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+      {
+        "locale" : "en_US",
+        "policyText" : "",
+        "policyURL" : ""
+      }
+    ]
+  },
+  "identifier" : "3A0C888B",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : false,
+      "internalID" : "33C94498",
+      "localizations" : [
+        {
+          "description" : "Unlock all premium features",
+          "displayName" : "Unlock Forever",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.spendless.unlock",
+      "referenceName" : "Unlock (One Time)",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "99.99",
+      "familyShareable" : true,
+      "internalID" : "55D12234",
+      "localizations" : [
+        {
+          "description" : "Lifetime access to Titan features",
+          "displayName" : "Titan Lifetime",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.spendless.titan.lifetime",
+      "referenceName" : "Titan Lifetime",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "29384712",
+      "localizations" : [
+
+      ],
+      "name" : "Titan Subscription",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "4.99",
+          "familyShareable" : true,
+          "groupNumber" : 1,
+          "internalID" : "99887766",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Monthly access to Titan features",
+              "displayName" : "Titan Monthly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.spendless.titan.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Titan Monthly",
+          "subscriptionGroupID" : "29384712",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "39.99",
+          "familyShareable" : true,
+          "groupNumber" : 1,
+          "internalID" : "11223344",
+          "introductoryOffer" : {
+            "displayPrice" : "0.99",
+            "internalID" : "AABBCCDD",
+            "numberOfPeriods" : 1,
+            "paymentMode" : "payAsYouGo",
+            "subscriptionPeriod" : "P1Y"
+          },
+          "localizations" : [
+            {
+              "description" : "Annual access to Titan features",
+              "displayName" : "Titan Annual",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.spendless.titan.annual",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Titan Annual",
+          "subscriptionGroupID" : "29384712",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}

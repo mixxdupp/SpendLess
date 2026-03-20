@@ -1,0 +1,25 @@
+.DS_Store
+/.build
+/Packages
+/Package.resolved
+/DerivedData
+/build
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+# Secrets (NEVER commit)
+**/Secrets.swift
+
+# Build artifacts & logs
+*.log
+build_*.txt
+tail_output.txt
+worker_logs.txt
+
+# Dependencies
+backend/node_modules/
+
+# Misc
+.swiftpm/
+page.html
+test_regex.js

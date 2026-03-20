@@ -1,0 +1,54 @@
+#sib-track-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 20px;
+  margin: 12px 0;
+  background-color: #FF0000;
+  /* User Request: Bright Red */
+  color: white;
+  border: none;
+  border-radius: 9999px;
+  /* Pill */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+  box-shadow: 0 4px 12px rgba(255, 0, 0, 0.4);
+  width: auto;
+  z-index: 9999;
+  letter-spacing: -0.01em;
+}
+
+#sib-track-button:hover {
+  background-color: #D60000;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(255, 0, 0, 0.5);
+}
+
+#sib-track-button:active {
+  transform: translateY(0) scale(0.98);
+}
+
+#sib-track-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+  background-color: #ccc;
+  box-shadow: none;
+}
+
+/* Success State (Green) */
+#sib-track-button.sib-tracked {
+  background-color: #34C759;
+  /* Apple Green */
+  box-shadow: 0 4px 12px rgba(52, 199, 89, 0.3);
+}
+
+#sib-track-button svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
