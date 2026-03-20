@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		016E51E622AD340137884214 /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5FE04F3FD0826892135369 /* PrivacyPolicyView.swift */; };
 		4C4F46F4BC4BF23B5956669B /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = C978C5004D55BEA7CFBE444B /* Config.swift */; };
+		SEC001 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = SEC002 /* Secrets.swift */; };
 		7786FAC6C760BCE36D757FA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EADF85FCB211E399F40A83 /* Assets.xcassets */; };
 		8FBC1E1042A34712E3974DA9 /* TermsOfServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044708EF9C305E71080A7FCE /* TermsOfServiceView.swift */; };
 		APP001 /* SpendLessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC001 /* SpendLessApp.swift */; };
@@ -54,6 +55,7 @@
 		97E701E4BFAF6C2CB38A4DFB /* Wishlist.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Wishlist.swift; path = Sources/SpendLess/Models/Wishlist.swift; sourceTree = "<group>"; };
 		987F84CD9ED8C30C110502AB /* RationalityChatView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RationalityChatView.swift; sourceTree = "<group>"; };
 		C978C5004D55BEA7CFBE444B /* Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Config.swift; path = Sources/SpendLess/Config.swift; sourceTree = "<group>"; };
+		SEC002 /* Secrets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		INFO001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		PROD001 /* SpendLess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpendLess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		SRC001 /* SpendLessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendLessApp.swift; sourceTree = "<group>"; };
@@ -195,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				SRC001 /* SpendLessApp.swift */,
+				SEC002 /* Secrets.swift */,
 				VIEWSGRP /* Views */,
 				MODELSGRP /* Models */,
 				SERVICESGRP /* Services */,
@@ -331,6 +334,7 @@
 				C1C640B5725EAFD1C863FCB7 /* Wishlist.swift in Sources */,
 				EE11309F866CF46169E47C26 /* RationalityChatView.swift in Sources */,
 				4C4F46F4BC4BF23B5956669B /* Config.swift in Sources */,
+				SEC001 /* Secrets.swift in Sources */,
 				016E51E622AD340137884214 /* PrivacyPolicyView.swift in Sources */,
 				8FBC1E1042A34712E3974DA9 /* TermsOfServiceView.swift in Sources */,
 			);
