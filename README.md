@@ -74,14 +74,6 @@ Replace placeholders in these files:
 - `extension/content.js` - Worker URL
 - `extension/popup.js` - Worker URL
 
-## Monetization
-
-| Tier | Price | Limits |
-|------|-------|--------|
-| Free | $0 | 1 product, manual refresh, 7-day history |
-| Unlock | $4.99 one-time | 10 products, daily auto-check, 30-day history |
-| Premium | $2.99/month | Unlimited products, hourly checks, 90-day history |
-
 ## Key Features
 
 - **Impulse Blocker**: Cooldown period (3-30 days) before price alerts
@@ -115,15 +107,6 @@ Replace placeholders in these files:
    - Test push notifications
    - Test extension on all supported stores
 
-## Revenue Goal: $150K/month
-
-Requires ~50K paying subscribers at $2.99/mo average.
-
-**Growth strategy:**
-- Viral sharing of "Money NOT Spent" stats
-- Chrome extension as acquisition funnel
-- App Store featuring (requires exceptional quality)
-- Paid ads once product-market fit validated
 
 ## Legal Considerations
 
